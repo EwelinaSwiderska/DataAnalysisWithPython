@@ -4,7 +4,7 @@
 
 
 <h2>Description</h2>
-<br> I have been given 3 different data files(excel, csv, json) from Camdens Council about trees and their enviroment in the local area to find out if they can create 3 new initiatives : 
+<br> I have been given 3 different data files(excel, csv, json) from Camdens Council about trees and their environment in the local area to determine if they can create 3 new initiatives: 
     <br> * List of all trees in the borough<br/>
      * Series of “Tree Walks” brochures with informations about interesting trees and parks locations in the area
      <br>* Enviroment Report of the total carbon and pollution benefit provided by all their trees with information about trees removed, trees planted and the net carbon and pollution impact of this activity</br>
@@ -35,7 +35,7 @@
 <img width="1091" alt="Screenshot 2023-04-28 at 15 43 55" src="https://user-images.githubusercontent.com/129959595/235179344-02972f53-a83a-41a9-b22d-a08634c9d9e9.png">
 <img width="985" alt="Screenshot 2023-04-28 at 15 45 01" src="https://user-images.githubusercontent.com/129959595/235179377-4011afbe-4bc8-41e0-a761-f15a3f96c5e5.png">
 
-<br />
+<br></br>
 ⇨ Checking all data sets for nulls and zero values to find out how big of a problem we having with missing values  <br/>
 <br></br>
 <img width="1080" alt="Screenshot 2023-04-28 at 15 50 06" src="https://user-images.githubusercontent.com/129959595/235180593-815d4568-ef77-4cb6-8e71-9576af46006a.png">
@@ -47,15 +47,13 @@
 <img width="1134" alt="Screenshot 2023-04-28 at 15 52 39" src="https://user-images.githubusercontent.com/129959595/235181179-1773c07a-b9dd-4038-94fb-bba09f9c6e84.png">
 <img width="1217" alt="Screenshot 2023-04-28 at 15 52 54" src="https://user-images.githubusercontent.com/129959595/235181213-683b3274-5da4-4769-b4d7-7690d3a526d3.png">
 
-<br />
-<br />
+<br></br>
 ⇨ Identifying duplicates  <br/>
 <br></br>
 <img width="1245" alt="Screenshot 2023-04-28 at 15 55 51" src="https://user-images.githubusercontent.com/129959595/235181935-5b982a3a-954c-4d47-b21a-335ea0853f3d.png">
 
 
-<br />
-<br />
+<br></br>
 ⇨ Identifying geolocation issues to find data for trees outside our area  <br/>
 <br></br>
 <img width="973" alt="Screenshot 2023-04-28 at 15 57 52" src="https://user-images.githubusercontent.com/129959595/235182581-5ed97fa0-69ea-4e52-970f-c519615a6159.png">
@@ -65,17 +63,14 @@
 
 
 
-<br />
-<br />
+<br></br>
 ⇨ Identyfying unmatched data to find trees without matching environmental data <br/>
 <br></br>
 <img width="1042" alt="Screenshot 2023-04-28 at 16 01 46" src="https://user-images.githubusercontent.com/129959595/235183627-82de2a95-8f9f-4c8e-875c-d8bb7baa23af.png">
 <img width="952" alt="Screenshot 2023-04-28 at 16 02 00" src="https://user-images.githubusercontent.com/129959595/235183662-920ea071-3769-4614-8a63-427f5f99bdbb.png">
 <img width="1024" alt="Screenshot 2023-04-28 at 16 02 21" src="https://user-images.githubusercontent.com/129959595/235183724-198e3164-d3b6-426b-8f56-6ca576c2c49c.png">
 <img width="938" alt="Screenshot 2023-04-28 at 16 02 32" src="https://user-images.githubusercontent.com/129959595/235183753-89d50266-44c4-4faa-b7bf-7c89ee1d56ff.png"></b></h2>
-
-<br />
-<br />
+<br></br>
 <h2>Conclusions: </h2> <br/>
 <br> ✔️ Problem with Data Quality (lots of missing values, outliers which we can classify like errors, some duplicated data, unmached data within data sets)</br>
 <br> ✔️ Problem with Data Sensitivity(data scraped from website without permission, data from council databases for internal use)</br>
